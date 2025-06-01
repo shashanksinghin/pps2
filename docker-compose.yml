@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  activemq:
+    image: apache/activemq-classic:latest
+    container_name: activemq
+    ports:
+      - "8161:8161"
+      - "61616:61616"
+    environment:
+      ACTIVEMQ_OPTS: "-Djetty.host=0.0.0.0"
+    volumes:
+      - activemq-data:/opt/apache-activemq/data
+      - activemq-conf:/opt/apache-activemq/conf
+volumes:
+  activemq-data:
+  activemq-conf:
