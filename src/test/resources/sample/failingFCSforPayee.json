@@ -1,0 +1,16 @@
+{
+	"transactionId": "e64e06dc-77ca-4dc7-be04-aae330a5df0f",
+	"isoCurrency": "INR",
+	"executionDate": "2025-04-14",
+	"amount": "1122.36",
+	"payeeName": "Mark Imaginary",
+	"payeeBank": "YBank",
+	"payeeAccountCode": "DEF456",
+	"payeeCountryCode": "USA",
+	"paymentInstruction": "Loan",
+	"payerName": "John Self",
+	"payerBank": "SBI",
+	"payerAccountCode": "ABC123",
+	"payerCountryCode": "IND",
+	"creationTimestamp": "2025-04-14T13:35:55"
+}
